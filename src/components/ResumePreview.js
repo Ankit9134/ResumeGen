@@ -50,7 +50,7 @@ const ResumePreview = () => {
 
             <VStack m={4} alignItems={"flex-start"} spacing={0.5}>
               <Heading as="h4" size="md">
-                {about.name ? about.name : "Jhon Doe"}
+                {about.name ? about.name : "Ankit Pal"}
               </Heading>
               <Text color={"gray.500"}>
                 {about.role ? about.role : "Full Stack Web Developer"}
@@ -66,15 +66,15 @@ const ResumePreview = () => {
           >
             <HStack spacing={1}>
               <MdMail />{" "}
-              <Text>{about.email ? about.email : "jhondoe@gmail.com"}</Text>
+              <Text>{about.email ? about.email : "ap9377016.com"}</Text>
             </HStack>
             <HStack spacing={1}>
               <MdLocalPhone />{" "}
-              <Text>{about.phone ? about.phone : "+918559584846"}</Text>
+              <Text>{about.phone ? about.phone : "+916392006091"}</Text>
             </HStack>
             <HStack spacing={1}>
               <MdLocationPin />{" "}
-              <Text>{about.address ? about.address : "Pune, MH"}</Text>
+              <Text>{about.address ? about.address : "Sanjay, Nagar"}</Text>
             </HStack>
             <HStack spacing={1}>
               <RiLinkedinBoxFill />{" "}
@@ -112,10 +112,10 @@ const ResumePreview = () => {
                       pb={2}
                     >
                       <Text fontWeight={"medium"}>
-                        {degree ? degree : "B.Tech Computer Engineering"}
+                        {degree ? degree : "B.Tech Computer Science Engineering"}
                       </Text>
                       <Text fontSize={"sm"}>
-                        {school ? school : "College of Engineering Pune"}
+                        {school ? school : "Nitra Technical Campus"}
                       </Text>
                       <HStack
                         fontSize={"xs"}
@@ -124,9 +124,9 @@ const ResumePreview = () => {
                         w={"full"}
                       >
                         <Text>
-                          {startYr ? startYr : 2014} - {endYr ? endYr : 2018}
+                          {startYr ? startYr : 2022} - {endYr ? endYr : 2026}
                         </Text>
-                        <Text>{grade ? grade : "8.7 CGPA"}</Text>
+                        <Text>{grade ? grade : "7.8 CGPA"}</Text>
                       </HStack>
                     </VStack>
                   );
@@ -163,8 +163,8 @@ const ResumePreview = () => {
                         {type ? type : "Full-time"}
                       </Text>
                       <Text fontSize={"xs"} fontStyle={"italic"}>
-                        {startDate ? startDate : "2018-03"} -{" "}
-                        {endDate ? endDate : "2021-12"}
+                        {startDate ? startDate : "2022-03"} -{" "}
+                        {endDate ? endDate : "2023-12"}
                       </Text>
                       <Text fontSize={"sm"} as="p">
                         {desc
