@@ -26,7 +26,7 @@ const Footer = () => {
 
                 <Stack direction={{ base: 'column', md: 'row' }} fontWeight={'medium'}>
                     <Text>&copy; 2024 Resume Genretor. Designed By ILATE VISION</Text>
-                    <Text as={'a'} href={'https://www.linkedin.com/in/ankit-pal-15772025a/'} target={'_blank'} color={'blue.600'}>Jigar Sable</Text>
+                    <Text as={'a'} href={'https://www.linkedin.com/in/ankit-pal-15772025a/'} target={'_blank'} color={'blue.600'}>Ankit Pal</Text>
                 </Stack>
 
 
